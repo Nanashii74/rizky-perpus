@@ -1,0 +1,109 @@
+ERROR - 2025-05-07 08:21:26 --> Failed to save member: Array
+(
+)
+
+CRITICAL - 2025-05-07 08:25:41 --> ErrorException: Undefined variable $anggota
+[Method: GET, Route: buku]
+in APPPATH\Views\buku.php on line 281.
+ 1 APPPATH\Views\buku.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'D:\\xampp\\htdocs\\perpusci4\\app\\Views\\buku.php', 281)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\perpusci4\\app\\Views\\buku.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('buku', [], true)
+ 5 APPPATH\Controllers\BukuController.php(29): view('buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BukuController->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BukuController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\perpusci4\\public\\index.php')
+CRITICAL - 2025-05-07 08:25:53 --> ErrorException: Undefined variable $anggota
+[Method: GET, Route: buku]
+in APPPATH\Views\buku.php on line 281.
+ 1 APPPATH\Views\buku.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'D:\\xampp\\htdocs\\perpusci4\\app\\Views\\buku.php', 281)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\perpusci4\\app\\Views\\buku.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('buku', [], true)
+ 5 APPPATH\Controllers\BukuController.php(29): view('buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BukuController->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BukuController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\perpusci4\\public\\index.php')
+CRITICAL - 2025-05-07 08:59:36 --> ErrorException: Undefined array key "idtransaksi"
+[Method: GET, Route: peminjaman]
+in APPPATH\Views\peminjaman.php on line 288.
+ 1 APPPATH\Views\peminjaman.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idtransaksi"', 'D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php', 288)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('peminjaman', [], true)
+ 5 APPPATH\Controllers\PeminjamanController.php(36): view('peminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PeminjamanController->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeminjamanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\perpusci4\\public\\index.php')
+CRITICAL - 2025-05-07 09:02:17 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: peminjaman]
+in APPPATH\Views\peminjaman.php on line 293.
+ 1 APPPATH\Views\peminjaman.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php', 293)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('peminjaman', [], true)
+ 5 APPPATH\Controllers\PeminjamanController.php(36): view('peminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PeminjamanController->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeminjamanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\perpusci4\\public\\index.php')
+CRITICAL - 2025-05-07 09:02:19 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: peminjaman]
+in APPPATH\Views\peminjaman.php on line 293.
+ 1 APPPATH\Views\peminjaman.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php', 293)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('peminjaman', [], true)
+ 5 APPPATH\Controllers\PeminjamanController.php(36): view('peminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PeminjamanController->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeminjamanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\perpusci4\\public\\index.php')
+CRITICAL - 2025-05-07 09:03:33 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: peminjaman]
+in APPPATH\Views\peminjaman.php on line 293.
+ 1 APPPATH\Views\peminjaman.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php', 293)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('peminjaman', [], true)
+ 5 APPPATH\Controllers\PeminjamanController.php(36): view('peminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PeminjamanController->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeminjamanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\perpusci4\\public\\index.php')
+CRITICAL - 2025-05-07 09:03:57 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: peminjaman]
+in APPPATH\Views\peminjaman.php on line 293.
+ 1 APPPATH\Views\peminjaman.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php', 293)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\perpusci4\\app\\Views\\peminjaman.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('peminjaman', [], true)
+ 5 APPPATH\Controllers\PeminjamanController.php(36): view('peminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PeminjamanController->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeminjamanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\perpusci4\\public\\index.php')
